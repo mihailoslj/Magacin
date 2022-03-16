@@ -24,7 +24,7 @@ public class ImplementacijaMetoda {
 			int kolicina) {
 		Knjiga k = new Knjiga(naziv, sifra, opis, kolicina);
 		Magacin m = new Magacin();
-		m.listaKnjigas.add(k);
+		m.listaKnjiga.add(k);
 	}
 	
 	
@@ -85,20 +85,20 @@ public class ImplementacijaMetoda {
 			k.setSifra(sifra);
 			k.setOpis(opis);
 			k.setKolicina(kolicina);
-			m.listaKnjigas.add(k);
+			m.listaKnjiga.add(k);
 			}
 	
 	public void izbaciKnjigu(Knjiga k) throws Exception {
 		Magacin m = new Magacin();
-		if(m.listaKnjigas.contains(k))
-			m.listaKnjigas.remove(k);
+		if(m.listaKnjiga.contains(k))
+			m.listaKnjiga.remove(k);
 		else
 			throw new Exception("Ne postoji ta knjiga na spisku.");
 	}
 	
 	public Knjiga pronadjiKnjigu(int sifra) throws Exception {
 		Magacin m = new Magacin();
-		for(Knjiga k : m.listaKnjigas) {
+		for(Knjiga k : m.listaKnjiga) {
 			if(k.getSifra() == sifra) {
 				return k;
 			}

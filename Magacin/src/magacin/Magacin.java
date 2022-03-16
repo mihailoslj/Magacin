@@ -9,6 +9,6 @@ import artikal.KucnaHemija;
 public class Magacin {
 	protected List<KucnaHemija> listaKucnaHemija = null;
 	protected List<KancelarijskiMaterijal> listaKancelarijskiMaterijal = null;
-	protected List<Knjiga> listaKnjigas = null;
+	protected List<Knjiga> listaKnjiga = null;
 	
 }
