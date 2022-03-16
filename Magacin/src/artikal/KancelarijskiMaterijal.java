@@ -8,12 +8,10 @@ public class KancelarijskiMaterijal {
 	private String opis;
 	private int kolicina;
 	
-	public KancelarijskiMaterijal(String n, int s, String o, int k) {
-		setNaziv(n);
-		setSifra(s);
-		setOpis(o);
-		setKolicina(k);
-	}
+	/*
+	 * public KancelarijskiMaterijal(String n, int s, String o, int k) {
+	 * setNaziv(n); setSifra(s); setOpis(o); setKolicina(k); }
+	 */
 	
 	public String getNaziv() {
 		return naziv;

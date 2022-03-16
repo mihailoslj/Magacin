@@ -8,12 +8,10 @@ public class Knjiga {
 	private String opis;
 	private int kolicina;
 	
-	public Knjiga(String n, int s, String o, int k) {
-		setNaziv(n);
-		setSifra(s);
-		setOpis(o);
-		setKolicina(k);
-	}
+	/*
+	 * public Knjiga(String n, int s, String o, int k) { setNaziv(n); setSifra(s);
+	 * setOpis(o); setKolicina(k); }
+	 */
 	
 	public String getNaziv() {
 		return naziv;
