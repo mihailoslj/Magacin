@@ -7,8 +7,8 @@ import artikal.Knjiga;
 import artikal.KucnaHemija;
 
 public class Magacin {
-	List<KucnaHemija> listaKucnaHemija = null;
-	List<KancelarijskiMaterijal> listaKancelarijskiMaterijal = null;
-	List<Knjiga> listaKnjigas = null;
+	protected List<KucnaHemija> listaKucnaHemija = null;
+	protected List<KancelarijskiMaterijal> listaKancelarijskiMaterijal = null;
+	protected List<Knjiga> listaKnjigas = null;
 	
 }
