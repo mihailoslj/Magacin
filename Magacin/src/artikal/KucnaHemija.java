@@ -10,6 +10,14 @@ public class KucnaHemija {
 	private int kolicina;
 	private Date rokTrajanja;
 	
+	public KucnaHemija(String n, int s, String o, int k, Date rt) {
+		setNaziv(n);
+		setSifra(s);
+		setOpis(o);
+		setKolicina(k);
+		setRokTrajanja(rt);
+	}
+	
 	public String getNaziv() {
 		return naziv;
 	}
